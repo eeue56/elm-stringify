@@ -6,6 +6,7 @@
     "source-directories": [
         "."
     ],
+    "native-modules": true,
     "exposed-modules": ["Stringify"],
     "dependencies": {
         "elm-lang/core": "5.0.0 <= v < 6.0.0",

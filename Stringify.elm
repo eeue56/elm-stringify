@@ -5,7 +5,9 @@ module Stringify exposing(..)
 
 -}
 
+import Native.Stringify
+
 {-| Take anything and convert it to a string
 -}
 stringify : a -> String
-stringify = toString
+stringify = Native.Stringify.stringify
