@@ -1,12 +1,11 @@
 {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "summary": "JSON.stringify for Elm",
     "repository": "https://github.com/eeue56/elm-stringify.git",
     "license": "BSD3",
     "source-directories": [
         "."
     ],
-    "native-modules": true,
     "exposed-modules": ["Stringify"],
     "dependencies": {
         "elm-lang/core": "5.0.0 <= v < 6.0.0",
