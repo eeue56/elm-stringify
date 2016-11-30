@@ -1,13 +1,13 @@
 module Stringify exposing(..)
 {-|
 
+Does nothing! This is just `toString`
+
 @docs stringify
 
 -}
 
-import Native.Stringify
-
-{-| Take anything and convert it to a string
+{-| toString
 -}
 stringify : a -> String
-stringify = Native.Stringify.stringify
+stringify = toString
